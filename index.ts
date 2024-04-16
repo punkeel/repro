@@ -1,11 +1,10 @@
-export class Lala implements DurableObject {
-    constructor(
-        readonly ctx: DurableObjectState,
-        readonly env: Bindings,
-    ) { }
+import { DurableObject } from 'cloudflare:workers';
 
-    async fetch(request: Request) {
-        return new Response('Yo!');
+export default { fetch: function() {} }
+
+export class Lala extends DurableObject {
+    async ping() {
+       return {x:42};
     }
 }
 

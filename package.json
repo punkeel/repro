@@ -2,7 +2,7 @@
   "name": "workers-repro",
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.1.19",
+    "@cloudflare/vitest-pool-workers": "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/8555574864/npm-package-cloudflare-vitest-pool-workers-5508",
     "vitest": "1.3.0"
   }
 }

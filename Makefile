@@ -1,3 +1,3 @@
 .PHONY: all
 all:
-	yarn vitest --run
+	npx vitest --run
