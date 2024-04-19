@@ -3,9 +3,7 @@ compatibility_date = "2024-04-05"
 compatibility_flags = ["nodejs_compat"]
 usage_model = "unbound"
 main = "index.ts"
-
-[durable_objects]
-bindings = [{ name = "LALA", class_name = "Lala" }]
+account_id = "b03830d9ae163ab8ac4a868e4ddd0e84"
 
 [[migrations]]
 tag = "v1" # Should be unique for each entry

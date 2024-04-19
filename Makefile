@@ -1,3 +1,3 @@
 .PHONY: all
 all:
-	npx vitest --run
+	npx wrangler@latest versions upload --experimental-gradual-rollouts
